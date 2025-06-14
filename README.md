@@ -36,4 +36,4 @@ echo $PATH | grep "$GOPATH/bin"
 3.)
 export PATH=$PATH:$GOPATH/bin
 ```
-## Happy Scoring!
+## Happy Scoring! :bar_chart:
