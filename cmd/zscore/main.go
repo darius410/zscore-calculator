@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"github.com/yourusername/zscore-calculator/pkg/stats"
+	"github.com/darius410/zscore-calculator/pkg/stats"
 )
 
 // Set these during build using -ldflags
 var (
-	version = "dev"    // default value
+	version = "1.0"    // default value
 	commit  = "none"   // default value
 	date    = "unknown" // default value
 )
@@ -26,7 +26,7 @@ func main() {
 
 	// Handle version flag
 	if *versionFlag {
-		fmt.Printf("zscore version %s\nCommit: %s\nBuilt: %s\n", version, commit, date)
+		fmt.Printf("zscore version: %s", version,)
 		os.Exit(0)
 	}
 
