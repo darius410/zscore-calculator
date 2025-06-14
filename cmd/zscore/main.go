@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"github.com/darius410/zScoreCalculator/pkg/stats"
+	"github.com/darius410/zscore-calculator/pkg/stats"
 )
 
 func main() {
