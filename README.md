@@ -2,6 +2,11 @@
 
 A simple command-line tool to calculate z-scores made in Golang.
 
+##How To Use
+--bash
+zscore -value 85 -mean 100 -stddev 15
+--bash
+
 ##Prerequisites
 You must have Go installed (this is for the 'Go Install' method below)
 
@@ -11,6 +16,10 @@ Download the pre-built binary from the releases page or build from source:
 
 ```bash
 go install github.com/darius/zscore-calculator/cmd/zscore@latest
+
+
+## Help Command
+zscore -h
 
 ## Verify installation (may require adding GOPATH/bin to PATH)
 zscore -version
