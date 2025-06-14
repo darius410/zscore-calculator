@@ -3,9 +3,9 @@
 A simple command-line tool to calculate z-scores made in Golang.
 
 ##How To Use
---bash
+```bash
 zscore -value 85 -mean 100 -stddev 15
---bash
+```
 
 ##Prerequisites
 You must have Go installed (this is for the 'Go Install' method below)
@@ -32,5 +32,5 @@ echo $GOPATH
 echo $PATH | grep "$GOPATH/bin"
 3.)
 export PATH=$PATH:$GOPATH/bin
-
+```
 ##Happy Scoring!
